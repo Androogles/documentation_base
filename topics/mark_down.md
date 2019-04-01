@@ -1,6 +1,7 @@
 # Markdown CheatSheet
+[Back to README](../README.md)
 <!-- Headings -->
-## Headings
+## **Headings**
 ```
 # Heading 1
 ## Heading 2
@@ -9,45 +10,49 @@
 ##### Heading 5
 ###### Heading 6
 ``` 
+
 # Heading 1
 ## Heading 2
 ### Heading 3
-*and so on...*
+#### and so on...
 
 <!-- Italics -->
-## Italics
+## **Italics**
 ```
 *this text* is italic.
 
 _this text_ is italic.
 ```
+
 *this text* is italic.
 
 _this text_ is italic.
 
 
 <!-- Espace characters -->
-## Escaping Characters
+## **Escaping Characters**
 ```
 \*this text\*
 ```
+
 \*this text\*
 
 
 <!-- Strong -->
-## Strong
+## **Strong**
 ```
 **this text** is strong.
 
 __this text__ is strong.
 ```
+
 **this text** is strong.
 
 __this text__ is strong.
 
 
 <!-- Striketrough -->
-## Strikethrough
+## **Strikethrough**
 ```
 ~~this text~~ is strikethrough.
 ```
@@ -55,7 +60,7 @@ __this text__ is strong.
 
 
 <!-- Horizontal Rules -->
-## Horizontal Rules
+## **Horizontal Rules**
 ```
 - - -
 ___
@@ -65,7 +70,7 @@ ___
 
 
 <!-- Blockquote -->
-## Blockqoute
+## **Blockqoute**
 ```
 > This is a qoute
 ```
@@ -73,7 +78,7 @@ ___
 
 
 <!-- Links -->
-## Links
+## **Links**
 ```
 Link:
 [google](http://www.google.com)
@@ -81,13 +86,15 @@ Link:
 Link with title on hover:
 [google](http://www.google.com 'search here')
 ```
+*examples:*
+
 link to [google](http://www.google.com)
 
 Link with title on hover [google](http://www.google.com 'search here')
 
 
 <!-- UL -->
-## UL
+## **UL**
 ```
 * item 1
 * item 2
@@ -103,27 +110,29 @@ Link with title on hover [google](http://www.google.com 'search here')
 
 
 <!-- OL -->
-## OL
+## **OL**
 ```
 1. item 1
 1. item 2
 1. item 3
 ```
+
 1. item 1
 1. item 2
 1. item 3
 
 
 <!-- Images -->
-## Images
+## **Images**
 ```
 ![alt descrption](/images/itworks.jpg)
 ```
+
 ![alt descrption](/images/itworks.jpg)
 
 
 <!-- Inline code block -->
-## Inline Code Block
+## **Inline Code Block**
 ```
 here is an `<p>inline paragrph</p>`
 ```
@@ -131,30 +140,34 @@ here is an `<p>inline paragrph</p>`
 
 
 <!-- Code Blocks -->
-## Code Blocks
-Standard ways without specification
-
+## **Code Blocks**
+*Without language specification*
+___
 <code>~~~</code> 
 
 <code>~~~</code>
-
+ 
+~~~
+<p>something</p> 
+~~~
+___
 <code>```</code> 
 
 <code>```</code>
 
-With specification, in this example javascript
+```
+<p>samething</p> 
+```
+___
+*With language specification, such as*
 
-<code>```javascript</code> 
+javascript, json, python, java, css, html, php, mysql and...
+___
+<code>```javascript</code>
+
+<code>let color = 'orange'</code>	
 
 <code>```</code>
-
-~~~
-code block
-~~~
-
-```
-code block
-```
 
 ```javascript
 let color = 'orange'
@@ -162,7 +175,7 @@ let color = 'orange'
 
 
 <!-- Tables -->
-## Tables
+## **Tables**
 ```
 |  Name        |  Email             |
 | -------------| -------------------|
@@ -177,7 +190,7 @@ let color = 'orange'
 
 
 <!-- Task lists -->
-## Task Lists 
+## **Task Lists** 
 Can only be previewed on GitHub
 ```
 * [x] task 1
