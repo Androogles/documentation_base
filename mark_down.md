@@ -183,3 +183,7 @@ Can only be previewed on GitHub
 * [x] task 2
 * [ ] task 3
 ```
+
+* [x] task 1
+* [x] task 2
+* [ ] task 3
