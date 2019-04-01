@@ -20,4 +20,4 @@
 * Where do contribitions go, bug reports, pull request ?
 * Where are the people, mailing list, slack ?
 
-[Back to README](README.md)
+[Back to README](../README.md)
