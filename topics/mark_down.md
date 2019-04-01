@@ -117,8 +117,9 @@ Link with title on hover [google](http://www.google.com 'search here')
 <!-- Images -->
 ## Images
 ```
+![alt descrption](/images/itworks.jpg)
 ```
-![alt descrption](http or directory path)
+![alt descrption](/images/itworks.jpg)
 
 
 <!-- Inline code block -->
